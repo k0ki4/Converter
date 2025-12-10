@@ -222,7 +222,6 @@ class FileConverter(QMainWindow):
 
         # Матрица конвертаций
         self.matrix = {
-            # ... ваш существующий код матрицы ...
             # ========== ИЗОБРАЖЕНИЯ ==========
             'JPG': ['PNG', 'GIF', 'BMP', 'TIFF', 'PDF', 'WEBP', 'ICO', 'PPM'],
             'JPEG': ['PNG', 'GIF', 'BMP', 'TIFF', 'PDF', 'WEBP', 'ICO', 'PPM'],
